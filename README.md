@@ -1,41 +1,4 @@
 # ynico
-Un increíble juego en el que recuerdas que te amo mucho, Nico.
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tetris Te Amo Nico</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="game-container">
-        <div class="tetris-grid" id="grid"></div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
-body {
-    background-color: #FFC0CB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.game-container {
-    background-color: #FF69B4;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.tetris-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 30px);
-    grid-template-rows: repeat(20, 30px);
-    border: 2px solid #FF1493;
-}
 
 .tetris-grid div {
     width: 30px;
